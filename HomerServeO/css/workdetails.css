@@ -1,0 +1,47 @@
+/* CSS for the main content */
+.content {
+    margin-left: 0;
+    padding: 20px;
+    color: black;
+}
+
+/* CSS for the customer details and address */
+.customer-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS for the address section */
+.address {
+    margin-top: 20px;
+}
+
+
+/* the below code belongs to start and end work and generate cost */
+
+#button {
+    margin-bottom: 30px; 
+     margin-left: 900px; 
+    
+    
+}
+
+#button  {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#button :hover {
+    background-color: #0056b3;
+}
+
+ 
+
+

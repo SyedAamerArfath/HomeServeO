@@ -1,0 +1,101 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px; /* Wider table */
+    margin: 0 auto;
+    /* font-family: 'Times New Roman', Times, serif, sans-serif; */
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Add some spacing and padding for a clearer look */
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style the table header */
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+th{
+    background-color: #333;
+          
+        }
+
+
+        /* the below code belongs to payment option */
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          /* Style the dropdown content (hidden by default) */
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            width: 150px;
+            background-color:#fff;
+            /* min-width: 160px; */
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+          
+          /* Style the dropdown links */
+          .dropdown-content a {
+            padding: 3px 16px;
+            text-indent: 10px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          /* Change color of dropdown links on hover */
+          .dropdown-content a:hover {
+            background-color: #ddd;
+            
+          }
+        
+          
+          /* Show the dropdown content when hovering over the parent list item */
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+
+          ul li{
+            list-style: none;
+          }
+
+          
+
+          .button {
+            background-color:#3498db; 
+            color: #fff; /* Text color */
+            padding: 10px 20px; /* Padding for the button */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Cursor style on hover */
+        }
+        
+        /* Style the button on hover */
+        .button:hover {
+            background-color: #5a99d4; /* Darker blue color on hover */
+        }
+        
+          

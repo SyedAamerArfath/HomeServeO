@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px; /* Wider table */
+    margin: 0 auto;
+    /* font-family: 'Times New Roman', Times, serif, sans-serif; */
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Add some spacing and padding for a clearer look */
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style the table header */
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+th{
+    background-color: #333;
+          
+        }
+
+    /*the below css belongs to end work button */
+   
+    
+    #button1  {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        width: 110px;
+        height:40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+    #button1 :hover {
+        background-color: #0056b3;
+    } 
+    

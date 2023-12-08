@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Adjusted to move buttons to the left */
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.register-button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add this CSS rule for hover effect */
+.houseowner-button:hover {
+    background-color: #555; /* Change to the desired background color on hover */
+    color: #fff; /* Change to the desired text color on hover */
+}
+
+/* Add this CSS for the dropdown */
+.houseowner-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.houseowner-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.houseowner-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 40px;
+    }
+}
+
+.body-section {
+    padding: 40px;
+}
+
+
+/* Featured Jobs Styles */
+.featured-jobs {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 40px; /* Adjust margin as needed */
+}
+
+.featured-jobs h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px; /* Add negative margin to create space between job listings */
+}
+
+.job {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px; /* Add margin to create space between job listings */
+}
+
+.job h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.job p {
+    font-size: 16px;
+    color: #555;
+}
+
+.job button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Our Happy Customers Styles */
+.testimonials-container {
+background-color: #f7f7f7;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 20px 40px; /* Adjust margin as needed */
+text-align: center; /* Center-align the content horizontally */
+}
+
+.section-title {
+font-size: 24px;
+margin-bottom: 15px;
+color: #333;
+}
+
+.testimonial-container {
+display: flex;
+justify-content: space-between; /* Spread testimonials evenly */
+flex-wrap: wrap; /* Allow testimonials to wrap on smaller screens */
+}
+
+.testimonial-box {
+width: calc(25% - 20px); /* Adjust the width of each testimonial box */
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px; /* Add margin for spacing between testimonials */
+text-align: center; /* Center the content horizontally */
+box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.testimonial {
+font-size: 16px;
+line-height: 1.4;
+margin-bottom: 10px;
+}
+
+.author {
+font-style: italic;
+color: #777;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+.testimonial-box {
+width: calc(50% - 20px); /* Two testimonials per row on smaller screens */
+}
+}
+
+/* About Us Styles */
+.about-us,.contact-us  {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 40px; /* Adjust margin as needed */
+    font-family: Arial, sans-serif;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center; /* Center-align the heading */
+}
+
+.about-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-us ul {
+    font-size: 16px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.about-us li {
+    margin-bottom: 10px;
+}
+
+/* contact us */
+.contact-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ /* Footer Styles */
+ .footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add padding to top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+.social-media-links a, .footer-links a {
+    color: #fff; /* White link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add horizontal spacing between links */
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+}
